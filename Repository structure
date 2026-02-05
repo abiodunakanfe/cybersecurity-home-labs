@@ -1,14 +1,1 @@
-pfsense-home-lab/
-│
-├── README.md
-│
-├── labs/
-│   ├── lab-01-pfsense-multi-lan/
-│   │   ├── README.md
-│   │   ├── network-diagram.png
-│   │   └── notes.md
-│
-├── troubleshooting/
-│   ├── dns-and-ipv6-issues.md
-│
-└── screenshots/
+
