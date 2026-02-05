@@ -1,4 +1,4 @@
-# Lab 01: pfSense Multi-LAN Network
+#lab-01-pfsense-multi-lan-network
 
 ## Objective
 Deploy a pfSense firewall with multiple internal networks (ECORP and ATTACKLAN) and provide controlled internet access to internal virtual machines.
