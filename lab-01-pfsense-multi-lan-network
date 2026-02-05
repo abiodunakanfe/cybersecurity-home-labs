@@ -44,3 +44,4 @@ This caused application-layer failures despite successful routing and name resol
 - VirtualBox networking behaves differently on Wi-Fi
 - IPv6 must be intentionally configured, not left enabled by default
 - Application-layer testing is critical during troubleshooting
+- Always ping google.com even when you usual that DNS ping
