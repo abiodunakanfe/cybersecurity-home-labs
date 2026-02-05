@@ -23,3 +23,4 @@ The goal is to build real-world skills through experimentation, failure, and fix
 - [lab-01-pfsense-multi-lan-network](lab-01-pfsense-multi-lan-network/README.md)
 - Lab 02: DNS and Internet Access Troubleshooting
 - Lab 03: IPv6 impact on VM connectivity
+<img width="778" height="761" alt="home-Lab" src="https://github.com/user-attachments/assets/2013a7ca-10de-4bdc-a0a5-9ae5de3ec6f4" />
