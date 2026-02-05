@@ -5,14 +5,13 @@ The focus is on practical networking, firewall configuration, and troubleshootin
 
 The goal is to build real-world skills through experimentation, failure, and fixes.
 
-## Lab Environment
+## Tools
 - VirtualBox
-- pfSense
-- Window 11
-- Kali Linux
-- Ubuntu Server
+- pfSense CE
 - Windows Server
+- Windows 11
 - metasploitable
+- Kali Linux
 
 ## Skills Practiced
 - Network segmentation
