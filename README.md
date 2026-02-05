@@ -20,6 +20,6 @@ The goal is to build real-world skills through experimentation, failure, and fix
 - VM connectivity troubleshooting
 
 ## Labs
-- Lab 01: pfSense installation and initial setup
+- [Lab 01: pfSense Multi-LAN Network Setup](lab-01-pfsense-multi-lan-network/README.md)
 - Lab 02: DNS and Internet Access Troubleshooting
 - Lab 03: IPv6 impact on VM connectivity
