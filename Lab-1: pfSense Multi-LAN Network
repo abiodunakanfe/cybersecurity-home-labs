@@ -1,0 +1,46 @@
+# Lab 01: pfSense Multi-LAN Network
+
+## Objective
+Deploy a pfSense firewall with multiple internal networks (ECORP and ATTACKLAN) and provide controlled internet access to internal virtual machines.
+
+## Environment
+- Host OS: Windows 11
+- Hypervisor: VirtualBox
+- Network medium: Wi-Fi
+- Firewall: pfSense CE
+- WAN: Bridged Adapter
+- Internal Networks:
+  - ECORP (10.0.1.0/24)
+  - ATTACKLAN (10.0.2.0/24)
+
+## Initial Symptoms
+- DHCP leases assigned correctly
+- Default gateway reachable
+- Traceroute to public IPs successful
+- Browsers reported no internet access
+- HTTP and HTTPS requests failed
+- DNS lookups succeeded
+
+## Key Observations
+- Direct HTTP requests to IP addresses succeeded
+- DNS resolution returned responses, but applications failed
+- pfSense DNS Resolver produced IPv6-related errors
+- Disabling IPv6 restored application connectivity
+- Manual DNS configuration resolved browsing issues
+
+## Root Cause
+pfSense DNS Resolver (Unbound) returned IPv6 or incompatible DNS responses in a VirtualBox bridged Wi-Fi environment.  
+This caused application-layer failures despite successful routing and name resolution.
+
+## Resolution
+- Disabled IPv6 on pfSense and Windows clients
+- Disabled pfSense DNS Resolver
+- Configured public DNS servers manually
+- Renewed DHCP leases
+- Verified HTTP access
+
+## Lessons Learned
+- DNS resolution success does not guarantee application connectivity
+- VirtualBox networking behaves differently on Wi-Fi
+- IPv6 must be intentionally configured, not left enabled by default
+- Application-layer testing is critical during troubleshooting
