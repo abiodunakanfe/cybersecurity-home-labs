@@ -1,4 +1,4 @@
-# Cybersecurity Home Lab – SOC / Blue Team Focus
+# Cybersecurity Home Lab – SOC/Blue Team 
 
 This repository documents my hands-on cybersecurity home lab designed to support
 blue team and SOC-style monitoring, detection, and investigation activities.
