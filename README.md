@@ -1,26 +1,44 @@
-# Cybersecurity Home Lab
+# Cybersecurity Home Lab – SOC / Blue Team Focus
 
-This repository documents my hands-on cybersecurity home lab work.
-The focus is on practical networking, firewall configuration, and troubleshooting.
+This repository documents my hands-on cybersecurity home lab designed to support
+blue team and SOC-style monitoring, detection, and investigation activities.
 
-The goal is to build real-world skills through experimentation, failure, and fixes.
+The lab simulates an enterprise environment with network segmentation, Active Directory,
+endpoint logging, and a dedicated attack network for controlled testing.
 
-## Tools
+## Lab Architecture Overview
+- Multi-LAN network segmented with pfSense
+- Internal production network and isolated attack network
+- Centralized endpoint telemetry using Sysmon and Splunk
+- Windows Active Directory domain environment
+
+## Network Segmentation
+- Internal LAN: 10.0.1.0/24  
+  Hosts Windows 11 endpoint, Windows Server (Domain Controller), and Metasploitable
+
+- Attack LAN: 10.0.3.0/24  
+  Hosts Kali Linux for attack simulation
+
+pfSense enforces routing and traffic control between networks.
+
+## Lab Environment
 - VirtualBox
-- pfSense CE
-- Windows Server
-- Windows 11
-- metasploitable
+- pfSense
+- Windows 11 (Endpoint with Sysmon + Splunk)
+- Windows Server (Active Directory Domain Controller)
 - Kali Linux
+- Metasploitable 2
 
-## Skills Practiced
-- Network segmentation
-- DNS and DHCP configuration
-- Firewall rule management
-- VM connectivity troubleshooting
+## Blue Team Skills Practiced
+- Network segmentation and firewall architecture
+- Active Directory administration and GPO management
+- Endpoint telemetry collection with Sysmon
+- Log ingestion and monitoring with Splunk
+- Attack surface preparation for detection testing
 
 ## Labs
-- [lab-01-pfsense-multi-lan-network](lab-01-pfsense-multi-lan-network/README.md)
-- Lab 02: DNS and Internet Access Troubleshooting
-- Lab 03: IPv6 impact on VM connectivity
-<img width="778" height="761" alt="home-Lab" src="https://github.com/user-attachments/assets/2013a7ca-10de-4bdc-a0a5-9ae5de3ec6f4" />
+- [Lab 01: Virtualization Setup](lab-01-virtualization-setup/README.md)
+- [Lab 02: pfSense Multi-LAN Network Architecture](lab-02-pfsense-multi-lan-architecture/README.md)
+- [Lab 03: Windows Endpoint Logging with Sysmon and Splunk](lab-03-windows-endpoint-logging/README.md)
+- [Lab 04: Active Directory Foundation and Policy Configuration](lab-04-active-directory-foundation/README.md)
+- [Lab 05: Attack Surface Preparation](lab-05-attack-surface-preparation/README.md)
