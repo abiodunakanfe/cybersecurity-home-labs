@@ -51,3 +51,4 @@ A stable, segmented SOC lab environment ready for:
 - Attack simulation  
 - Telemetry collection  
 - Detection engineering  
+<img width="1101" height="829" alt="virtualbox set up" src="https://github.com/user-attachments/assets/c43527a9-02f4-4c74-8bec-ef3447b09fc6" />
