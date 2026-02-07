@@ -42,4 +42,4 @@ pfSense enforces routing and traffic control between networks.
 - [Lab 03: Windows Endpoint Logging with Sysmon and Splunk](lab-03-windows-endpoint-logging/README.md)
 - [Lab 04: Active Directory Foundation and Policy Configuration](lab-04-active-directory-foundation/README.md)
 - [Lab 05: Attack Surface Preparation](lab-05-attack-surface-preparation/README.md)
-<img width="1101" height="829" alt="virtualbox set up" src="https://github.com/user-attachments/assets/632d6534-4f16-4d53-876e-8d8274d1c43a" />
+  ![Lab Sketch](https://github.com/user-attachments/assets/c2c12deb-0761-4af0-b5fd-b18753e763ff)
