@@ -39,7 +39,7 @@ pfSense enforces routing and traffic control between networks.
 ## Labs
 - [Lab 01: Virtualization Setup](lab-01-virtualization-setup/README.md)
 - [Lab 02: pfSense Multi-LAN Network Architecture](lab-02-pfsense-multi-lan-architecture/README.md)
-- [Lab 03: Windows Endpoint Logging with Sysmon and Splunk](lab-03-windows-endpoint-logging/README.md)
+- [Lab 03: Windows Endpoint Logging with Sysmon and Splunk](lab-03-windows-endpoint-logging-sysmon-splunk/README.md)
 - [Lab 04: Active Directory Foundation and Policy Configuration](lab-04-active-directory-foundation/README.md)
 - [Lab 05: Attack Surface Preparation](lab-05-attack-surface-preparation/README.md)
   ![Lab Sketch](https://github.com/user-attachments/assets/c2c12deb-0761-4af0-b5fd-b18753e763ff)
